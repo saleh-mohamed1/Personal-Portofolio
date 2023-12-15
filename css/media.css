@@ -1,0 +1,400 @@
+    @media only screen and  (max-width: 1400px){
+        .section-about  .hello-left .hello-left-border .img .adam-smith .icons i{
+            font-size: 20px;
+            padding: 0 5px;
+        }
+    }
+    @media only screen and  (max-width: 1200px){
+        .container{
+            width: 80%;
+            margin: auto;
+        }
+    .main-text{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+    .section-about  .hello-left .hello-left-border .img .adam-smith .icons i{
+        font-size: 20px;
+        padding: 0 5px;
+    }
+}
+    @media only screen and (max-width: 992px) {
+        /* end nav bar */
+            .section-about .hello-left {
+                width: 45%;
+                margin: 0;
+            }
+            .section-about .hello-right{
+                width: 53%;
+                margin: 0;
+            }
+            .section-about .hello-left .hello-left-border{
+                border: none;
+            }
+            .section-about .hello-left .hello-left-border .img{
+                top: 0;
+                left: 0;
+            }
+            .section-about .hello-left{
+                margin-right: 2%;
+            }
+            .section-about .hello-right ul li{
+                float: none;
+                width: 100%;
+                padding-bottom: 10px;
+            }
+            .section-about .hello-right h2{
+                margin-bottom: 10px;
+            }
+            .section-about .hello-right p{
+                margin-bottom: 10px;
+            }
+            .section-about .hello-right {
+                margin-bottom: 10px;
+            }
+            .section-about  .hello-left .hello-left-border .img .adam-smith .icons i{
+                font-size: 20px;
+                padding: 0 5px;
+            }
+            /* end section-hello */
+            .our-services{
+                width: 100%;
+            }
+            .our-services-sections{
+                float: left;
+                width: 45%;
+                background-color: #f1f1f1;
+            }
+            
+            /* end our services */
+            .our-Portfolio{
+                width: 100%;
+            }
+            .our-portofolio-one{
+                width: 45%;
+                
+            }
+            .our-portofolio-two{
+                width: 45%;
+            }
+            /* end our-Portfolio */
+            .section-numbers{
+                width: 100%;
+            }
+            .section-number-one{
+                width: 25%;
+                transition: .5s background-color ;
+            }
+            /* end section-numbers */
+            .clients-feedback{
+                width: 100%;
+            }
+            .clients-feedback h2{
+                text-align: center;
+                font-size: 200%;
+                position: relative;
+                padding-top: 50px;
+            }
+            
+            .clients-feedback-back-ground::before{
+                content: "";
+                position: absolute;
+                background-color: #ed0e3a;
+                bottom: 80px;
+                right: 76%;
+                height: 470px;
+                width: 150px;
+                transform: rotate(45deg);
+            }
+            .imaage-alexander img{
+                width: 85%;
+                border-radius: 50%;
+                transform: rotate(350deg);
+            }
+            
+            /* end clients-feedback */
+            .our-blog{
+                width: 100%;
+                text-align: center;
+            }
+            .our-blog-section{
+                width: 28%;
+                
+            }
+            .our-blog-section img{
+                height: 25%;
+                
+            }
+            .our-blog-section iframe{
+                height: 25%;
+                
+            }
+            
+            /* end our-blog */
+            
+            .contact-us-form input{
+                width: 45%;
+            }
+            .contact-us-form .text-subject{
+                width: 91%;
+                margin-top: 25px;
+            }
+            .contact-us-form form button{
+                margin-top: 25px;
+                width: 250px;
+                height: 40px;
+                text-align: center;
+                padding-left: 9px;
+                background-color: #ff305b;
+                border: none;
+                border-radius: 5px;
+                color: #ffffff;
+                font-size: 16px;
+                transition: .5s  background-color;
+                margin: 0;
+                margin-top: 15px;
+            }
+            .contact-us-form form textarea{
+                width: 91%;
+                margin-top: 20px;
+            }
+            /* end Contact us */
+        }
+    @media only screen and (max-width: 768px) {
+        
+        /* end container */
+        .nav-bar ul{
+            position: absolute;
+            width: 100%;
+            left: 0;
+            
+            top: 100%;
+            text-align: center;
+            background-color: #757474bb ;
+            opacity: 0;
+            visibility: hidden;
+            transition: 1s all;
+            }
+        .nav-bar ul li{
+            float: none !important;
+            padding: 18px !important;
+            }
+            .nav-bar  .icon-nav{
+                width: 30px;
+                height: 20px;
+                position: absolute;
+                right: 20px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .nav-bar  .icon-nav span{
+                width: 100%;
+                height: 4px;
+                background-color: ff305b;
+                display: inline-block;
+                position: absolute;
+            }
+            .nav-bar  .icon-nav span:nth-child(1){
+                top: 0;
+            }
+            .nav-bar  .icon-nav span:nth-child(2){
+                top: 50%;
+                transform: translateY(-50%);
+                width: 80%;
+    
+            }
+            .nav-bar  .icon-nav span{
+                transition: .5s all ;
+            }
+            .nav-bar  .icon-nav span:nth-child(3){
+                bottom: 0;
+            }
+            .nav-bar  .icon-nav:hover + ul{
+                opacity: 1;
+                visibility: visible;
+            }
+            .nav-bar:hover  .icon-nav span:nth-child(1){
+                top: 50%;
+                transform: translateY(-50%)  rotate(45deg);
+            }
+            .nav-bar:hover  .icon-nav span:nth-child(2){
+                opacity: 0;
+            }
+            .nav-bar:hover  .icon-nav span:nth-child(3){
+                top: 50%;
+                transform: translateY(-50%)  rotate( -45deg);
+            }
+    /* end nav bar */
+    .main-text{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+    .main-text h1{
+        font-size: 33px;
+    }
+    .main-text h3{
+        font-size: 20px;
+    }
+    .main-text h2{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    /* end section main */
+    .section-about .hello-left , .section-about .hello-right{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .section-about  .hello-left .hello-left-border .img .adam-smith .icons i{
+        font-size: 20px;
+        padding: 0 20px;
+    }
+        /* end section-hello */
+        .our-services{
+            width: 100%;
+        }
+        .our-services-sections{
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            margin-top: 20px;
+            background-color: #f1f1f1;
+        }
+        /* end our services */
+        .our-portofolio-one{
+            width: 100%;  
+        }
+        .our-portofolio-one{
+            width: 45%;
+        }
+        .main-our-portofolio{
+            padding: 0;
+        }
+        /* end our-Portfolio */
+        .section-numbers{
+            background-color: #f1f1f1;
+            width: 100%;
+        }
+        .section-number-one{
+            width: 100%;
+            padding-top: 30px;
+        }
+        /* end section-numbers */
+        .clients-feedback{
+            width: 100%;
+        }
+        .clients-feedback-back-ground{
+            height: 60vh;
+            width: 80%;
+            text-align: center;
+            padding: 0;
+        }
+        .imaage-alexander{
+            position: static;
+            width: 40%;
+        }
+        .imaage-alexander img{
+            width: 35%;
+            border-radius: 50%;
+            transform: rotate(340deg);
+            margin-left: 130px;
+        }
+       
+        .clients-feedback-back-ground::before{
+            content: "";
+            position: absolute;
+            background-color: #ed0e3a;
+            bottom: 224px;
+            right: 76%;
+            height: 470px;
+            width: 150px;
+            transform: rotate(45deg);
+        }
+        .imaage-alexander img{
+            width: 85%;
+            border-radius: 50%;
+            transform: rotate(350deg);
+        }
+        .clients-feedback-back-ground h3{
+            margin: 0;
+        }
+        .imaage-alexander img{
+            margin: 25px 0  20px 120px ;
+        }
+        /* end clients-feedback */
+        .our-blog{
+           width: 100%;
+        }
+        .our-blog .container {
+            width: 90%;
+            margin: auto;
+        }
+        .our-blog-section{
+            width: 80%;
+            float: left;
+            margin-left: 65px;
+        }
+        
+        /* end our-blog */
+        .contact-us{
+            height: 100vh;
+        }
+        .contact-us-form input{
+            width: 70%;
+            margin-top: 15px;   
+            font-size: 16px;
+        }
+        .contact-us-form .text-subject{
+            width: 70%;
+            margin-top: 15px;
+        }
+        .contact-us-form form textarea{
+            width: 70%;
+            margin-top: 20px;
+        
+        }
+        .contact-us-form form button{
+            text-align: center;
+            
+        }
+        /* end Contact us */
+    }
+    @media only screen and (max-width: 600px) {
+        .section-about  .hello-left .hello-left-border .img .adam-smith .icons i{
+            font-size: 20px;
+            padding: 0 15px;
+        }
+        /* end section hello */
+        .our-Portfolio{
+            width: 100%;
+        }
+        .our-Portfolios img {
+            width: 25%;
+            height: 25%;
+        }
+        .our-portofolio-one{
+            width: 100%;
+        }
+        .main-our-portofolio{
+            padding: 0;
+        }
+        /* end our portofolio */
+        .clients-feedback-back-ground h3{
+            margin: 0;
+        }
+        .imaage-alexander img{
+            margin: 25px 100px 20px ;
+        }
+        /* end  Our Portfolio */
+    }
+    @media only screen and (max-width: 500px){
+        .section-about  .hello-left .hello-left-border .img .adam-smith .icons i{
+            font-size: 20px;
+            padding: 0 10px;
+        }
+    }
+
+
+
+    
